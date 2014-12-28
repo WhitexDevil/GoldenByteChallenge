@@ -19,12 +19,6 @@ namespace TrinityCore.GameComponents
         public ScreenManager(Game game) : base(game)
         {
             activeScreens = new List<Screen>();
-            
-        }
-
-        public override void Initialize()
-        {
-            base.Initialize();
         }
 
         public override void Update(GameTime gameTime)
@@ -47,10 +41,6 @@ namespace TrinityCore.GameComponents
             base.Draw(gameTime);
         }
 
-        /// <summary>
-        /// Добавляет в менеджер новый экран
-        /// </summary>
-        /// <param name="screen">Имя экрана</param>
         public void PushScreen(Screen screen)
         {
             if (activeScreens != null)
@@ -76,10 +66,6 @@ namespace TrinityCore.GameComponents
             }
         }
 
-        /// <summary>
-        /// Удаляет текущий экран и достаёт из стэка предыдущий
-        /// если таких нет, то остаётся пустым
-        /// </summary>
         public void PopScreen()
         {
             if (activeScreens != null)

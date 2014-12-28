@@ -43,7 +43,10 @@ namespace GoldenByteChallenge
             var gameScreen = new Screen(this, "game");
 
             screenManager = new ScreenManager(this);
-            
+            Components.Add(screenManager);
+
+            menuScreen.Components.Add(new FPSCounter(this));
+            screenManager.PushScreen(menuScreen);
 
             var t = s.GetStringBuilder().ToString();
 
@@ -68,7 +71,8 @@ namespace GoldenByteChallenge
 
             if (InputHandler.MouseLeftPressDown())
             {
-                screenManager.PushScreen(new Screen(this, "anotherScreen", true));
+                var scr = new Screen(this, "anotherScreen", true);
+                screenManager.PushScreen(scr);
             }
             if (InputHandler.MouseRightPressDown())
             {
@@ -84,7 +88,7 @@ namespace GoldenByteChallenge
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            Window.Title = screenManager.ScreenCount.ToString();
+            //Window.Title = screenManager.ScreenCount.ToString();
 
             base.Draw(gameTime);
         }

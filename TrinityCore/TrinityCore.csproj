@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameComponents\FPSCounter.cs" />
     <Compile Include="GameComponents\InputHandler.cs" />
     <Compile Include="GameComponents\Screen.cs" />
     <Compile Include="GameComponents\ScreenManager.cs" />

@@ -9,19 +9,25 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Storage;
 using Microsoft.Xna.Framework.GamerServices;
 using TrinityCore.GameComponents;
+using TrinityCore.Screens;
 
 #endregion
 
 namespace GoldenByteChallenge
 {
-    public class Game1 : Game
+    public class TrinityGame : Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        private ScreenManager screenManager; 
+        private ScreenManager screenManager;
 
-        public Game1()
+        public ScreenManager ScreenManager
+        {
+            get { return screenManager; }
+        }
+
+        public TrinityGame()
             : base()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -30,25 +36,10 @@ namespace GoldenByteChallenge
 
         protected override void Initialize()
         {
-            var s = new StringWriter();
-            Console.SetOut(s);
-
-            Console.WriteLine("hello");
-            Console.WriteLine("from console");
-
-            var text = s.GetStringBuilder().ToString();
-
-            var menuScreen = new Screen(this, "menu");
-            var optionsScreen = new Screen(this, "options", true);
-            var gameScreen = new Screen(this, "game");
-
             screenManager = new ScreenManager(this);
+            screenManager.PushScreen(new TestScreen(this, screenManager));
+           
             Components.Add(screenManager);
-
-            menuScreen.Components.Add(new FPSCounter(this));
-            screenManager.PushScreen(menuScreen);
-
-            var t = s.GetStringBuilder().ToString();
 
             base.Initialize();
         }
@@ -56,8 +47,6 @@ namespace GoldenByteChallenge
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
-            // TODO: use this.Content to load your game content here
         }
 
         protected override void UnloadContent()
@@ -67,20 +56,6 @@ namespace GoldenByteChallenge
 
         protected override void Update(GameTime gameTime)
         {
-            InputHandler.Update();
-
-            if (InputHandler.MouseLeftPressDown())
-            {
-                var scr = new Screen(this, "anotherScreen", true);
-                screenManager.PushScreen(scr);
-            }
-            if (InputHandler.MouseRightPressDown())
-            {
-                screenManager.PopScreen();
-            }
-
-            // TODO: Add your update logic here
-
             base.Update(gameTime);
         }
 

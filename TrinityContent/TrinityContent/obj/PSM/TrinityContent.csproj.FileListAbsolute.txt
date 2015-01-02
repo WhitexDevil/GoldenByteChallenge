@@ -1,0 +1,5 @@
+E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\bin\PSM\Content\Textures\hero.xnb
+E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\bin\PSM\IgnoreMe.dll
+E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\TrinityContent.csprojResolveAssemblyReference.cache
+E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\IgnoreMe.dll

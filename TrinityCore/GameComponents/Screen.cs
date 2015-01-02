@@ -8,19 +8,24 @@ namespace TrinityCore.GameComponents
 {
     public class Screen : DrawableGameComponent
     {
+        private ScreenManager screenManager;
         public string Name { get; private set; }
 
         public Boolean IsPopUp { get; private set; }
         public Boolean IsFullScreen { get; private set; }
         public ObservableCollection<GameComponent> Components { get; private set; }
+        public ScreenManager ScreenManager
+        {
+            get { return screenManager; }
+        }
 
-        public Screen(Game game, string name, Boolean isPopUp = false, Boolean isFullScreen = true) : base(game)
+        public Screen(Game game, ScreenManager parentScreenManager, string name, Boolean isPopUp = false, Boolean isFullScreen = true) : base(game)
         {
             Name = name;
             IsPopUp = isPopUp;
             IsFullScreen = isFullScreen;
             Components = new ObservableCollection<GameComponent>();
-            Console.WriteLine("Screen created: {0}", name);
+            screenManager = parentScreenManager;
         }
 
         public void Show()

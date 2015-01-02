@@ -26,3 +26,5 @@ E:\Projects\GoldenByteChallenge\GoldenByteChallenge\bin\Windows\Debug\SharpDX.Di
 E:\Projects\GoldenByteChallenge\GoldenByteChallenge\obj\x86\Debug\GoldenByteChallenge.csprojResolveAssemblyReference.cache
 E:\Projects\GoldenByteChallenge\GoldenByteChallenge\obj\x86\Debug\GoldenByteChallenge.exe
 E:\Projects\GoldenByteChallenge\GoldenByteChallenge\obj\x86\Debug\GoldenByteChallenge.pdb
+E:\Projects\GoldenByteChallenge\GoldenByteChallenge\bin\Windows\Debug\Content\Textures\hero.xnb
+E:\Projects\GoldenByteChallenge\GoldenByteChallenge\bin\Windows\Debug\IgnoreMe.dll

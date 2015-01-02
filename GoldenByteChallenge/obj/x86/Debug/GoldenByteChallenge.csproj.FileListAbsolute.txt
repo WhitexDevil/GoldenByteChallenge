@@ -28,3 +28,6 @@ E:\Projects\GoldenByteChallenge\GoldenByteChallenge\obj\x86\Debug\GoldenByteChal
 E:\Projects\GoldenByteChallenge\GoldenByteChallenge\obj\x86\Debug\GoldenByteChallenge.pdb
 E:\Projects\GoldenByteChallenge\GoldenByteChallenge\bin\Windows\Debug\Content\Textures\hero.xnb
 E:\Projects\GoldenByteChallenge\GoldenByteChallenge\bin\Windows\Debug\IgnoreMe.dll
+D:\учботреш\golden\GoldenByteChallenge\GoldenByteChallenge\bin\Windows\Debug\GoldenByteChallenge.exe.config
+D:\учботреш\golden\GoldenByteChallenge\GoldenByteChallenge\obj\x86\Debug\GoldenByteChallenge.exe
+D:\учботреш\golden\GoldenByteChallenge\GoldenByteChallenge\obj\x86\Debug\GoldenByteChallenge.pdb

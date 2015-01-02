@@ -36,6 +36,7 @@ namespace TrinityCore.GameComponents
             foreach (Screen screen in activeScreens.Where(scr => scr.Visible))
             {
                 screen.Draw(gameTime);
+                screen.Update(gameTime);// добавил
             }
 
             base.Draw(gameTime);

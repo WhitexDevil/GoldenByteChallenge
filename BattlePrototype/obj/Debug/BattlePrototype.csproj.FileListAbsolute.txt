@@ -1,0 +1,5 @@
+D:\учботреш\golden\GoldenByteChallenge\BattlePrototype\bin\Debug\BattlePrototype.exe.config
+D:\учботреш\golden\GoldenByteChallenge\BattlePrototype\bin\Debug\BattlePrototype.exe
+D:\учботреш\golden\GoldenByteChallenge\BattlePrototype\bin\Debug\BattlePrototype.pdb
+D:\учботреш\golden\GoldenByteChallenge\BattlePrototype\obj\Debug\BattlePrototype.exe
+D:\учботреш\golden\GoldenByteChallenge\BattlePrototype\obj\Debug\BattlePrototype.pdb

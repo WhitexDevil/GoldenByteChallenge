@@ -3,3 +3,8 @@ E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\bin\PSM\IgnoreMe.d
 E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\TrinityContent.csprojResolveAssemblyReference.cache
 E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\IgnoreMe.dll
+D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContent\bin\PSM\Content\Textures\hero.xnb
+D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContent\bin\PSM\IgnoreMe.dll
+D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\TrinityContent.csprojResolveAssemblyReference.cache
+D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\IgnoreMe.dll

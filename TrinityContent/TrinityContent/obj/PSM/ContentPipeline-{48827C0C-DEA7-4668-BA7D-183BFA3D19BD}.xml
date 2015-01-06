@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\bin\PSM\Content\Textures\hero.xnb</Output>
-      <Time>2014-12-29T01:10:34.5828695+02:00</Time>
+      <Output>D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContent\bin\PSM\Content\Textures\hero.xnb</Output>
+      <Time>2015-01-02T23:53:13.9576807+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -17,10 +17,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>PSM</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContentContent\</RootDirectory>
-      <LoggerRootDirectory>E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\</IntermediateDirectory>
-      <OutputDirectory>E:\Projects\GoldenByteChallenge\TrinityContent\TrinityContent\bin\PSM\Content\</OutputDirectory>
+      <RootDirectory>D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContentContent\</RootDirectory>
+      <LoggerRootDirectory>D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContent\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContent\obj\PSM\</IntermediateDirectory>
+      <OutputDirectory>D:\учботреш\golden\GoldenByteChallenge\TrinityContent\TrinityContent\bin\PSM\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -53,7 +53,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-12-26T13:51:15.7870898+02:00</Value>
+        <Value>2014-12-07T17:14:21.1125053+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
